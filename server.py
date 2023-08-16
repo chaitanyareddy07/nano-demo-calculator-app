@@ -23,7 +23,7 @@ def add():
 def subtract():
     numbers = request.json
     
-    response = Result(numbers['first'] - numbers['second'])
+    response = Result(numbers['first'] + numbers['second'])
     
     return jsonify(response)
 
